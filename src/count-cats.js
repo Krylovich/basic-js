@@ -15,16 +15,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function countCats(backyard) {
-    backyard = [];
-   var number = {};
-   backyard.forEach(function(catEars) {
-     if(number[catEars] == "^^") {
-       ++number[catEars]
-     } else {
-       number[catEars] = 0;
-     }
-   });
-   return number
+    
 }
 
 module.exports = {
